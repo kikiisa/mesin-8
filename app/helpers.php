@@ -167,6 +167,7 @@ if (! function_exists('getLocation')) {
             'ip' => $location['query'] ?? [],
         ];
         return new \Illuminate\Support\Fluent($location);
+        // test
     }
 }
 
